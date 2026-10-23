@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microblogging</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Microblogging</h1>
+    <p style="margin:0;">Projeto em Node.js e MongoDB &mdash;
+      <button type="button" id="btn-reset" class="btn-danger" style="font-size:12px; padding:4px 10px;">⚠ Resetar banco de dados</button>
+    </p>
+  </header>
+
+  <div id="mensagem" class="msg-aviso"></div>
+
+  <!-- SEÇÃO 1: USUÁRIOS -->
+  <section class="card">
+    <h2>1. Usuário Ativo</h2>
+    <p>Selecione com qual usuário você quer publicar posts ou comentários:</p>
+    
+    <label for="select-usuario">Autor atual:</label>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <select id="select-usuario" style="flex: 1; margin: 0;">
+        <option value="">Carregando usuários...</option>
+      </select>
+      <button type="button" id="btn-excluir-usuario" class="btn-danger" style="margin: 0; padding: 8px 12px; font-size: 13px;">Excluir Usuário</button>
+    </div>
+
+    <details style="margin-top: 15px;">
+      <summary style="cursor: pointer; font-weight: bold;">+ Cadastrar novo usuário</summary>
+      <form id="form-usuario" style="margin-top: 10px;">
+        <label for="user-nome">Nome:</label>
+        <input type="text" id="user-nome" required placeholder="Ex: Maria Santos">
+
+        <label for="user-email">E-mail:</label>
+        <input type="email" id="user-email" required placeholder="Ex: maria@email.com">
+
+        <label for="user-senha">Senha:</label>
+        <input type="password" id="user-senha" required placeholder="Sua senha">
+
+        <label for="user-bio">Bio (opcional):</label>
+        <input type="text" id="user-bio" placeholder="Ex: Desenvolvedora Web">
+
+        <button type="submit">Cadastrar Usuário</button>
+      </form>
+    </details>
+  </section>
+
+  <!-- SEÇÃO 2: NOVA POSTAGEM -->
+  <section class="card">
+    <h2>2. Nova Postagem</h2>
+    <form id="form-postagem">
+      <label for="post-titulo">Título:</label>
+      <input type="text" id="post-titulo" required placeholder="Título da postagem">
+
+      <label for="post-conteudo">Conteúdo:</label>
+      <textarea id="post-conteudo" required placeholder="O que você está pensando?"></textarea>
+
+      <button type="submit">Publicar Postagem</button>
+    </form>
+  </section>
+
+  <!-- SEÇÃO 3: FEED E BUSCA -->
+  <section class="card">
+    <h2>3. Postagens</h2>
+    
+    <div class="busca-box">
+      <input type="text" id="campo-busca" placeholder="Buscar por palavra-chave no título ou conteúdo...">
+      <button type="button" id="btn-buscar">Buscar</button>
+      <button type="button" id="btn-limpar-busca" style="background: #666;">Limpar</button>
+    </div>
+
+    <div id="lista-postagens">
+      <p>Carregando postagens...</p>
+    </div>
+  </section>
+
+  <!-- MODAL DE LOGIN -->
+  <div id="modal-login" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.5); z-index:100; align-items:center; justify-content:center;">
+    <div class="card" style="width:320px; margin:0;">
+      <h3 style="margin-bottom:10px;">Confirmar identidade</h3>
+      <p id="modal-login-info" style="margin-bottom:12px; font-size:13px; color:#555;"></p>
+      <label for="modal-email">E-mail:</label>
+      <input type="email" id="modal-email" placeholder="seu@email.com">
+      <label for="modal-senha" style="margin-top:10px;">Senha:</label>
+      <div style="display:flex; gap:6px; align-items:center;">
+        <input type="password" id="modal-senha" placeholder="Sua senha" style="flex:1;">
+        <button type="button" id="btn-ver-senha" style="margin-top:0; padding:7px 10px; font-size:13px; background:#666;">👁</button>
+      </div>
+      <div style="display:flex; gap:8px; margin-top:14px; flex-wrap:wrap;">
+        <button type="button" id="btn-confirmar-login" style="flex:1;">Entrar</button>
+        <button type="button" id="btn-modal-excluir" class="btn-danger" style="flex:1; margin-top:10px;">Excluir Usuário</button>
+        <button type="button" id="btn-cancelar-login" style="background:#666; width:100%; margin-top:6px;">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

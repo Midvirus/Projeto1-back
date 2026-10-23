@@ -1,0 +1,140 @@
+[23/10/2026 00:47:56]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: Campos obrigatórios: nome, email, senha
+────────────────────────────────────────
+[23/10/2026 00:56:41]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: Campos obrigatórios: nome, email, senha
+────────────────────────────────────────
+[23/10/2026 01:03:21]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:21]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:23]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:23]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:23]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:23]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:24]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:03:24]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:09:33]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:09:33]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:09:42]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:09:42]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:14:15]
+ERRO: Erro no servidor web
+OPERACAO: /api/login
+MENSAGEM: Senha incorreta
+────────────────────────────────────────
+[23/10/2026 01:15:24]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:15:24]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:16:52]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: Senha deve ter mínimo 8 caracteres, ao menos 1 letra e 1 número
+────────────────────────────────────────
+[23/10/2026 01:16:52]
+ERRO: Erro geral na aplicação
+OPERACAO: main
+MENSAGEM: Senha deve ter mínimo 8 caracteres, ao menos 1 letra e 1 número
+────────────────────────────────────────
+[23/10/2026 01:18:46]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:18:46]
+ERRO: Erro geral na aplicação
+OPERACAO: main
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:39:20]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: Campos obrigatórios: nome, email, senha
+────────────────────────────────────────
+[23/10/2026 01:39:20]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: Senha deve ter mínimo 8 caracteres, ao menos 1 letra e 1 número
+────────────────────────────────────────
+[23/10/2026 01:39:20]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail inválido
+────────────────────────────────────────
+[23/10/2026 01:47:14]
+ERRO: Falha ao inserir usuário
+OPERACAO: Usuario.inserir
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 01:47:14]
+ERRO: Erro no servidor web
+OPERACAO: /api/usuarios
+MENSAGEM: E-mail já cadastrado
+────────────────────────────────────────
+[23/10/2026 02:00:15]
+ERRO: Erro no servidor web
+OPERACAO: /api/login
+MENSAGEM: Senha incorreta
+────────────────────────────────────────
+[23/10/2026 02:00:22]
+ERRO: Erro no servidor web
+OPERACAO: /api/login
+MENSAGEM: Senha incorreta
+────────────────────────────────────────

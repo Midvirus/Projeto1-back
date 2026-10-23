@@ -1,0 +1,13 @@
+{
+  "name": "microblogging",
+  "version": "1.0.0",
+  "description": "Aplicação de microblogging com Node.js e MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "web": "node src/server.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}

@@ -1,0 +1,128 @@
+/* CSS mínimo para organização e legibilidade */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 15px;
+  color: #222;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+header {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  height: 70px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0052a3;
+}
+
+button.btn-danger {
+  background: #cc2200;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+button.btn-danger:hover {
+  background: #a31b00;
+}
+
+.busca-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.post-item {
+  border-left: 3px solid #0066cc;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.comentarios-secao {
+  margin-top: 12px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.comentario-item {
+  border-bottom: 1px dashed #ccc;
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.comentario-item:last-child {
+  border-bottom: none;
+}
+
+.msg-aviso {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #e6f4ea;
+  color: #137333;
+  display: none;
+}
